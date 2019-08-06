@@ -222,3 +222,7 @@ passes through it.  Includes examples for how to emit these timings as statsd me
 This middleware adds authentication to any ASGI application, requiring users to sign in
 using their GitHub account (via [OAuth](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/)).
 Access can be restricted to specific users or to members of specific GitHub organizations or teams.
+
+#### [ZipkinMiddleware](https://github.com/mchlvl/zipkin_asgi)
+
+A middleware class for distributed tracing using [Zipkin](https://zipkin.io/) client and any OpenTracing zipkin compatible backend (e.g. [Jaeger](https://www.jaegertracing.io/docs/1.13/getting-started/)).
